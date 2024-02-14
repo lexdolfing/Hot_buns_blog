@@ -1,0 +1,15 @@
+.heroSection {
+    display: flex;
+}
+
+.heroContent {
+    display: flex;
+}
+
+.heroTitle {
+    font-size: 28px;
+}
+
+.heroParagraph {
+    font-size: 14px;
+}
