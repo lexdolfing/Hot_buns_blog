@@ -1,0 +1,5 @@
+@import '../../variables.module.css';
+
+.navigationBar {
+    background-color: var(--primary-color);
+}

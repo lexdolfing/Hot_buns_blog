@@ -1,15 +1,40 @@
+@import '../../index.module.css';
+
+
+.innerContainer{
+
+}
 .heroSection {
     display: flex;
+    border: 2px solid black;
+    flex-grow: 0;
+    width: 100%;
+    justify-content: center;
+    min-height: 350px;
 }
 
 .heroContent {
     display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    border: 2px solid red;
+    justify-content: center;
+    gap: 0.5em;
 }
 
 .heroTitle {
     font-size: 28px;
+    text-align: center;
 }
 
 .heroParagraph {
     font-size: 14px;
+    text-align: center
 }
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+

@@ -1,12 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from "./pages/Home/Home";
+import React from 'react';
+import NavigationBar from "./components/NavigationBar/NavigationBar";
+import {Route, Routes} from "react-router-dom";
+
 
 function App() {
   return (
-    <>
-    <Home></Home>
-    </>
+      <>
+          <Routes>
+              <Route path="/" element={<Home />} />
+          </Routes>
+      </>
   );
 }
 
