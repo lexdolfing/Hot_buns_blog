@@ -1,38 +1,44 @@
 @import '../../index.module.css';
+@import '../../variables.module.css';
 
-
-.innerContainer{
-
+.outerContainer{
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('../../assets/images/hero/Aardbeientaartjes.jpeg');
 }
+
 .heroSection {
     display: flex;
-    border: 2px solid black;
-    flex-grow: 0;
-    width: 100%;
     justify-content: center;
     min-height: 350px;
+    border: 2px solid green;
 }
 
 .heroContent {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    border: 2px solid red;
     justify-content: center;
     gap: 0.5em;
+    border: 2px dashed blue
 }
 
 .heroTitle {
+    font-family: var(--hero-title-font);
     font-size: 28px;
     text-align: center;
+    color: white;
 }
 
 .heroParagraph {
+    font-family: var(--hero-title-font);
     font-size: 14px;
-    text-align: center
+    text-align: center;
+    color: white;
 }
 
 .buttonContainer {
+    font-family: var(--title-font);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

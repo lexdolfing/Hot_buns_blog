@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './Home.module.css'
 import stylesIndex from '../../index.module.css'
 import NavigationBar from "../../components/NavigationBar/NavigationBar";
-import strawberriePies from './../../assets/images/hero/Aardbeientaartjes.jpeg'
 
 export default function Home() {
 
@@ -11,8 +10,8 @@ export default function Home() {
 
             <section className = {stylesIndex['pageBody']}>
                 <NavigationBar />
-                <section className={styles['outerContainer']} style={{backgroundImage: `url(${strawberriePies})`}}>
-                    <article className={styles['innerContainer']}>
+                <section className={`${styles['outerContainer']} ${stylesIndex['outerContainer']}`}>
+                    <article className={stylesIndex['innerContainer']}>
                         <section className={styles['heroSection']}>
                             <div className={styles['heroContent']}>
                                 <p className={styles['heroTitle']}>The diary of a plant-based baker and software engineer</p>
