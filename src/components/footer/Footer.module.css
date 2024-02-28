@@ -1,0 +1,18 @@
+@import '../../index.module.css';
+@import '../../variables.module.css';
+@import '../navigationBar/NavigationBar.module.css';
+
+
+.footer{
+    background-color: var(--background-color);
+}
+.footerBox{
+
+}
+.instagramLogo{
+    width:50px;
+}
+.instagramHandle{
+
+}
+

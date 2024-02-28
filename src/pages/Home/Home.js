@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from './Home.module.css'
 import stylesIndex from '../../index.module.css'
-import NavigationBar from "../../components/NavigationBar/NavigationBar";
-import Button from "../../components/Button/Button";
+import NavigationBar from "../../components/navigationBar/NavigationBar";
+import Button from "../../components/button/Button";
+import Footer from "../../components/footer/Footer";
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ export default function Home() {
                     </article>
 
                 </section>
+                <Footer />
             </section>
 
         </>
