@@ -2,12 +2,13 @@
 
 .navigationBar {
     background-color: var(--primary-color);
-    height: 50px;
+    height: 70px;
 }
 
 .logo {
     font-family: var(--title-font);
     font-weight: 700;
+    font-size: 25px;
     color: black;
     text-decoration: none;
 }
@@ -20,12 +21,14 @@
 
 .smallLinkContainer{
     display: flex;
-    border: 1px dashed yellow;
     flex-direction: row;
-
+    gap: 20px;
 }
 
 .menuLink{
     font-family: var(--title-font);
     color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
 }

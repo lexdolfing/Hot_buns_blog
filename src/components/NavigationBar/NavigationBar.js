@@ -18,7 +18,7 @@ export default function NavigationBar() {
                 Home
             </NavLink>
             <NavLink to="/" className={styles.menuLink}>
-                Blog posts
+                Blog
             </NavLink>
             <NavLink to="/" className={styles.menuLink}>
                 About
