@@ -1,17 +1,18 @@
 import React from "react";
 import styles from './Footer.module.css';
+import stylesIndex from './../../index.module.css'
 import instagramLogo from './../../assets/images/instagram-svg.svg';
 import {NavLink} from "react-router-dom";
 
 export default function Footer() {
     return (
-        <section className={styles.outerContainer}>
+        <section className= {`${stylesIndex.outerContainer} ${styles.outerContainer}`}>
 
-            <section className={styles.innerContainer}>
+            <section className={stylesIndex.innerContainer} >
                 <footer className={styles.footer}>
                     <NavLink to="/" className={styles.logo}>
-                        HOT BUNS <br/>
-                        BAKING BLOG
+                        Hot Buns <br/>
+                        Baking Blog
                     </NavLink>
 
                     <div className={styles.footerBox}>

@@ -7,7 +7,7 @@ import {NavLink} from "react-router-dom";
 export default function NavigationBar() {
 
     return (
-        <section className={`${styles['navigationBar']} ${stylesIndex.outerContainer}`}>
+        <section className={`${styles.navigationBar} ${stylesIndex.outerContainer}`}>
         <nav className={`${stylesIndex.innerContainer} ${styles.bigLinkContainer}`}>
             <NavLink to="/" className={styles.logo}>
                 HOT BUNS <br/>
