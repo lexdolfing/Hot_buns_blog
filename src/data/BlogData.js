@@ -1,9 +1,10 @@
-const blogPosts = [
+const blogData = [
     {id: 1,
         title: 'The big croissant journey: part I',
-           subTitle
     },
     {},
     {},
 
 ]
+
+export default blogData;

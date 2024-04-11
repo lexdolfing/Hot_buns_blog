@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import React from 'react';
 import NavigationBar from "./components/navigationBar/NavigationBar";
 import {Route, Routes} from "react-router-dom";
+import BlogPost from "./pages/blogPost/BlogPost";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <>
           <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/blog" element={<BlogPost />} />
           </Routes>
       </>
   );
