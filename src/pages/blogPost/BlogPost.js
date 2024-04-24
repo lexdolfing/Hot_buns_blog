@@ -15,6 +15,7 @@ export default function BlogPost() {
     // get blog data from BlogData folder
     useEffect( () => {
        const selectedBlogPost = blogData.find(post => post.id === parseInt(blogId));
+
     if (selectedBlogPost) {
         setBlogPost(selectedBlogPost)
     }
@@ -33,9 +34,13 @@ export default function BlogPost() {
                 <article className={styles.titleBox}>
                     <p className={styles.date}>{blogPost.date}</p>
                     <h1 className={styles.title}>{blogPost.title}</h1>
-                    <p>Jump to recipe (make this a link)</p>
+                    <p className={styles.jumpRecipe}>Jump to recipe (make this a link)</p>
                 </article>
-                <AboutMeBox />
+                <article className={styles.coverPhotoBox}>
+                    <img className={styles.coverPhoto} src={blogPost.images.coverPhoto.image} alt={blogPost.images.coverPhoto.description}/>
+                    <AboutMeBox />
+                </article>
+
 
             </section>
 

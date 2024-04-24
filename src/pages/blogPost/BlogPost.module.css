@@ -1,5 +1,34 @@
-.titleBox{
+* {
+    margin: 0;
+}
+
+.titleBox {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    align-items: flex-start;
+    border: 2px dashed red;
+}
+
+.date {
+    margin: 0;
+}
+
+.title {
+    font-family: var(--title-font);
+    color: black;
+    weight: 40px;
+}
+
+.jumpRecipe {
+    font-style: italic;
+    border: 2px dashed blue;
+    margin: 0;
+}
+
+.coverPhotoBox {
+    display: flex;
+    flex-direction: row;
+}
+.coverPhoto {
+ width: 300px;
 }

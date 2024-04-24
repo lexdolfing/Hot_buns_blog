@@ -1,9 +1,10 @@
-import oneCoverImage from './blogImages/1/soloview_baked.HEIC';
+import oneCoverImage from './blogImages/1/soloview_baked.jpg';
 import oneProcessOne from './blogImages/1/unproofed_layers.HEIC';
 import oneProcessTwo from './blogImages/1/layerview_proofed.HEIC';
 import oneResultOne from './blogImages/1/topview_baked.HEIC';
 
 const blogData =
+    [
     {
         id: 1,
         title: 'The Home Made Vegan Croissant Journey: part I',
@@ -119,5 +120,6 @@ const blogData =
 
         }
     }
+    ]
 
 export default blogData;
